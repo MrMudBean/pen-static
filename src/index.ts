@@ -1,0 +1,12 @@
+import { csi } from './csi';
+
+/**
+ * # 重置终端的样式
+ *
+ * 重置终端的文本样式，如文本（前景）色、背景色、字体粗细、是否斜体、是否隐藏文本色、是否启用方向显示
+ */
+export const terminalResetStyle = `${csi}0m`;
+
+export { csi } from './csi';
+export { esc } from './esc';
+export { terminalRegExp } from './terminalRegExp';
