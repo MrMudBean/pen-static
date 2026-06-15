@@ -111,7 +111,7 @@ packageJson = {
     ...exportsList,
   },
 
-  keywords: ['pen-static', 'mudbean', '终端', '终端彩绘'],
+  keywords: ['pen-static', 'mudbean', '终端', '终端彩绘', 'vvi'],
   homepage: 'https://npm.lmssee.com/pen-static',
   dependencies,
   bugs: {
